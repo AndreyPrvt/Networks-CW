@@ -6,7 +6,7 @@ package Models;
 public class Node {
     private int adress; // good coding practice would have this as private
     private boolean enable;
-    static int count;
+    public static int count;
 
     public Node() {
         this.adress = count++;
